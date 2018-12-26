@@ -6,7 +6,7 @@ In this competition, you are tasked with developing a controller to enable a phy
 
 ## Getting Started
 ### ChainerRL libary
-[ChainerRL] (https://github.com/chainer/chainerrl) is a deep reinforcement learning library that implements various state-of-the-art deep reinforcement algorithms in Python using Chainer, a flexible deep learning framework.
+[ChainerRL](https://github.com/chainer/chainerrl) is a deep reinforcement learning library that implements various state-of-the-art deep reinforcement algorithms in Python using Chainer, a flexible deep learning framework.
 
 ChainerRL contains DQN, DDPG, TRPO, PPO, etc Reinforcment Learning algorithms.
 
