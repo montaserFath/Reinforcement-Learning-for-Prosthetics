@@ -20,6 +20,7 @@ In this repo, we are trying to apply Reinforcement Learning (RL) to enable prost
 - [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) is a model free, on-policy optimization method that effective for optimizing large nonlinear policies such as neural networks.
 
 ## Results
+[![results](https://drive.google.com/open?id=1dCPayt3DAMknzX_jeISrdtjYweiGQpQm)
 
 ## Discussion
 
