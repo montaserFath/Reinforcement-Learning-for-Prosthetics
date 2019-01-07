@@ -6,45 +6,45 @@ In this repo, we are trying to apply Reinforcement Learning (RL) to enable prost
 [![AI for prosthetics](https://s3-eu-west-1.amazonaws.com/kidzinski/nips-challenge/images/ai-prosthetics.jpg)](https://github.com/stanfordnmbl/osim-rl)
 
 ## Objectives
-1-Benchmarking RL algorithms Deterministic Policy Gradient [DDPG](https://arxiv.org/abs/1509.02971), Trust Region Policy Optimization [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) and Proximal Policy Optimization [PPO](https://arxiv.org/abs/1707.06347) algorithms.
+1- Benchmarking RL algorithms Deterministic Policy Gradient [DDPG](https://arxiv.org/abs/1509.02971), Trust Region Policy Optimization [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) and Proximal Policy Optimization [PPO](https://arxiv.org/abs/1707.06347) algorithms.
 
-2-Reduce training time using Imitation Learning algorithm Dataset Aggregation algorithm [DAgger](http://proceedings.mlr.press/v15/ross11a/ross11a.pdf).
+2- Reduce training time using Imitation Learning algorithm Dataset Aggregation algorithm [DAgger](http://proceedings.mlr.press/v15/ross11a/ross11a.pdf).
 
-3-Modificat DAgger algorithm to balance between exploration and exploiting.
+3- Modificat DAgger algorithm to balance between exploration and exploiting.
 
 ## Algorithms and Hyperparameters
--[DDPG](https://arxiv.org/abs/1509.02971) is a model-free, off-policy actor-critic algorithm using deep function approximators that can learn policies in high-dimensional, continuous action spaces.DDPG is based on the deterministic policy gradient (DPG) algorithm. it combines the actor-critic approach with insights from the recent success of Deep Q Network (DQN).
+- [DDPG](https://arxiv.org/abs/1509.02971) is a model-free, off-policy actor-critic algorithm using deep function approximators that can learn policies in high-dimensional, continuous action spaces.DDPG is based on the deterministic policy gradient (DPG) algorithm. it combines the actor-critic approach with insights from the recent success of Deep Q Network (DQN).
 
--[PPO](https://arxiv.org/abs/1707.06347) is a policy optimization method that use multiple epochs of stochastic gradient ascent to perform each policy update.
+- [PPO](https://arxiv.org/abs/1707.06347) is a policy optimization method that use multiple epochs of stochastic gradient ascent to perform each policy update.
 
--[TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) is a model free, on-policy optimization method that effective for optimizing large nonlinear policies such as neural networks.
+- [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) is a model free, on-policy optimization method that effective for optimizing large nonlinear policies such as neural networks.
 
 ## Results
 
 ## Discussion
 
-1-OpenSim ProstheticsEnv is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
+1- OpenSim ProstheticsEnv is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
 
 2- RL algorithms take a long time to build a complex policy which has the ability to compute all state variables and select action variables which will maximize the reward.
 
 3-[DDPG](https://arxiv.org/abs/1509.02971) algorithm achieves good reward because it designed for high dimensions continuous space environments and it uses the replay buffer.
 
-4-[PPO](https://arxiv.org/abs/1707.06347) the least training time comparing to [DDPG](https://arxiv.org/abs/1509.02971) and [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) because [PPO](https://arxiv.org/abs/1707.06347) uses gradient algorithm approximation instance of the conjugate gradient algorithm.
+4- [PPO](https://arxiv.org/abs/1707.06347) the least training time comparing to [DDPG](https://arxiv.org/abs/1509.02971) and [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) because [PPO](https://arxiv.org/abs/1707.06347) uses gradient algorithm approximation instance of the conjugate gradient algorithm.
 
-5-[TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) algorithm achieved the maximum Reward because it takes time to reach the “trusted” region so it slower than [DDPG](https://arxiv.org/abs/1509.02971) and [PPO](https://arxiv.org/abs/1707.06347) .
+5- [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) algorithm achieved the maximum Reward because it takes time to reach the “trusted” region so it slower than [DDPG](https://arxiv.org/abs/1509.02971) and [PPO](https://arxiv.org/abs/1707.06347) .
 
 
 ## Limitations
 
-1-The prosthetic model can not walk for large distances.
+1- The prosthetic model can not walk for large distances.
 
-2-Each experiment runs for one time, So we are planing to Repeat each experiment number of times and take the average.
+2- Each experiment runs for one time, So we are planing to Repeat each experiment number of times and take the average.
 
-3-We used common hyperparameters for all algorithm to make benchmarking between algorithms, we need to select the best hyperparameters for each algorithm and environment.
+3- We used common hyperparameters for all algorithm to make benchmarking between algorithms, we need to select the best hyperparameters for each algorithm and environment.
 
-4-We benchmarcked three RL algorithms only and from one library ([ChainerRL](https://github.com/chainer/chainerrl)).
+4- We benchmarcked three RL algorithms only and from one library ([ChainerRL](https://github.com/chainer/chainerrl)).
 
-5-We transfer learning between similar agents.
+5- We transfer learning between similar agents.
 
 
 ## Getting Started
