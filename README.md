@@ -7,11 +7,16 @@ In this repo, we are trying to apply Reinforcement Learning (RL) to enable prost
 
 ## Objectives
 1-Benchmarking RL algorithms Deterministic Policy Gradient [DDPG](https://arxiv.org/abs/1509.02971), Trust Region Policy Optimization [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) and Proximal Policy Optimization [PPO](https://arxiv.org/abs/1707.06347) algorithms.
-2-Reduce training time using Imitation Learning algorithm Dataset Aggregation algorithm [DAgger](http://proceedings.mlr.press/v15/ross11a/ross11a.pdf)
+
+2-Reduce training time using Imitation Learning algorithm Dataset Aggregation algorithm [DAgger](http://proceedings.mlr.press/v15/ross11a/ross11a.pdf).
+
 3-Modificat DAgger algorithm to balance between exploration and exploiting.
-## Algorithms and Hyperparameters:
+
+## Algorithms and Hyperparameters
 -[DDPG](https://arxiv.org/abs/1509.02971) is a model-free, off-policy actor-critic algorithm using deep function approximators that can learn policies in high-dimensional, continuous action spaces.DDPG is based on the deterministic policy gradient (DPG) algorithm. it combines the actor-critic approach with insights from the recent success of Deep Q Network (DQN).
+
 -[PPO](https://arxiv.org/abs/1707.06347) is a policy optimization method that use multiple epochs of stochastic gradient ascent to perform each policy update.
+
 -[TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) is a model free, on-policy optimization method that effective for optimizing large nonlinear policies such as neural networks.
 
 
