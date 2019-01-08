@@ -55,7 +55,15 @@ The termination condition for the episode is filling 300 steps or the height of 
 ## Results
 ![Results](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/pro_mean.png)
 
+## Demo
 
+![Random](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/Demos/Random_prothetics.gif)
+
+![TRPO](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/Demos/TRPO_prothetics.gif)
+
+![PPO](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/Demos/PPO_prothetics.gif)
+
+![DDPG](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/Demos/DDPG_prothetics.gif)
 ## Discussion
 
 - OpenSim [ProstheticsEnv](http://osim-rl.stanford.edu) is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
