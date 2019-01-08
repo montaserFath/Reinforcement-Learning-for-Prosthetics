@@ -45,6 +45,7 @@ Where the <img src="https://latex.codecogs.com/gif.latex?V_{t}"/> is the horizon
 
 The termination condition for the episode is filling 300 steps or the height of the pelvis falling below 0.6 meters
 ## Algorithms and Hyperparameters
+
 - [DDPG](https://arxiv.org/abs/1509.02971) is a model-free, off-policy actor-critic algorithm using deep function approximators that can learn policies in high-dimensional, continuous action spaces.DDPG is based on the deterministic policy gradient (DPG) algorithm. it combines the actor-critic approach with insights from the recent success of Deep Q Network (DQN).
 
 - [PPO](https://arxiv.org/abs/1707.06347) is a policy optimization method that use multiple epochs of stochastic gradient ascent to perform each policy update.
@@ -56,11 +57,11 @@ The termination condition for the episode is filling 300 steps or the height of 
 
 ## Discussion
 
-- OpenSim ProstheticsEnv is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
+- OpenSim [ProstheticsEnv](http://osim-rl.stanford.edu) is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
 
 - RL algorithms take a long time to build a complex policy which has the ability to compute all state variables and select action variables which will maximize the reward.
 
--[DDPG](https://arxiv.org/abs/1509.02971) algorithm achieves good reward because it designed for high dimensions continuous space environments and it uses the replay buffer.
+- [DDPG](https://arxiv.org/abs/1509.02971) algorithm achieves good reward because it designed for high dimensions continuous space environments and it uses the replay buffer.
 
 - [PPO](https://arxiv.org/abs/1707.06347) the least training time comparing to [DDPG](https://arxiv.org/abs/1509.02971) and [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) because [PPO](https://arxiv.org/abs/1707.06347) uses gradient algorithm approximation instance of the conjugate gradient algorithm.
 
@@ -81,10 +82,11 @@ The termination condition for the episode is filling 300 steps or the height of 
 
 
 ## Getting Started
-### ChainerRL libary
-[ChainerRL](https://github.com/chainer/chainerrl) is a deep reinforcement learning library that implements various state-of-the-art deep reinforcement algorithms in Python using Chainer, a flexible deep learning framework.
 
-ChainerRL contains DQN, DDPG, TRPO, PPO, etc Reinforcment Learning algorithms.
+### ChainerRL libary
+- [ChainerRL](https://github.com/chainer/chainerrl) is a deep reinforcement learning library that implements various state-of-the-art deep reinforcement algorithms in Python using Chainer, a flexible deep learning framework.
+
+- [ChainerRL](https://github.com/chainer/chainerrl)  contains DQN, DDPG, TRPO, PPO, etc Reinforcment Learning algorithms.
 
 ### Environment
 To model physics and biomechanics we use [OpenSim](https://github.com/opensim-org/opensim-core) - a biomechanical physics environment for musculoskeletal simulations.
