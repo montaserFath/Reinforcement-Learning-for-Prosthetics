@@ -15,7 +15,7 @@ In this repo, we are trying to apply Reinforcement Learning (RL) to enable prost
 [OpenSim](https://opensim.stanford.edu/) models one human leg and prosthetic in another leg.
 
 ### Observations
-the observations can be divided into five components:
+the [observations](http://osim-rl.stanford.edu/docs/nips2018/observation/) can be divided into five components:
 
 - Body parts, the agent observes its position, velocity, acceleration, rotation, rotational velocity, and rotational acceleration.
 
@@ -29,14 +29,18 @@ the observations can be divided into five components:
 
 ### Actions
 
+- Muscles activation, lenght and velocity
+
+- Joints angels.
+
+- Tendons.
 
 ### Reward
 
-- <img src="https://latex.codecogs.com/gif.latex?R_{t}=9-(3-V_{t})^2" />
+<img src="https://latex.codecogs.com/gif.latex?R_{t}=9-(3-V_{t})^2" />
 
-R_{t}=9-(3-V_{t})^2
 
-Where the V_{t} is the horizontal velocity vector of the pelvi which is function of all state variables.
+Where the <img src="https://latex.codecogs.com/gif.latex?V_{t}"/> is the horizontal velocity vector of the pelvi which is function of all state variables.
 
 The termination condition for the episode is filling 300 steps or the height of the pelvis falling below 0.6 meters
 ## Algorithms and Hyperparameters
