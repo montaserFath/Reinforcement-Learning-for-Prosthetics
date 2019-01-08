@@ -11,7 +11,34 @@ In this repo, we are trying to apply Reinforcement Learning (RL) to enable prost
 2- Reduce training time using Imitation Learning algorithm Dataset Aggregation algorithm [DAgger](http://proceedings.mlr.press/v15/ross11a/ross11a.pdf).
 
 3- Modificat DAgger algorithm to balance between exploration and exploiting.
+## OpenSim Enviroment
+[OpenSim](https://opensim.stanford.edu/) models one human leg and prosthetic in another leg.
 
+### Observations
+the observations can be divided into five components:
+
+- Body parts, the agent observes its position, velocity, acceleration, rotation, rotational velocity, and rotational acceleration.
+
+- Joints, the agent observes its position, velocity and acceleration.
+
+- Muscles, the agent observes its activation, fiber force, fiber length and fiber velocity.
+
+- Forces, describes the forces acting on body parts.
+
+- Center of mass, the agent observes the position, velocity, and acceleration.
+
+### Actions
+
+
+### Reward
+
+- <img src="https://latex.codecogs.com/gif.latex?R_{t}=9-(3-V_{t})^2" />
+
+R_{t}=9-(3-V_{t})^2
+
+Where the V_{t} is the horizontal velocity vector of the pelvi which is function of all state variables.
+
+The termination condition for the episode is filling 300 steps or the height of the pelvis falling below 0.6 meters
 ## Algorithms and Hyperparameters
 - [DDPG](https://arxiv.org/abs/1509.02971) is a model-free, off-policy actor-critic algorithm using deep function approximators that can learn policies in high-dimensional, continuous action spaces.DDPG is based on the deterministic policy gradient (DPG) algorithm. it combines the actor-critic approach with insights from the recent success of Deep Q Network (DQN).
 
