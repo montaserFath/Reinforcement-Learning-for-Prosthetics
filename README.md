@@ -57,15 +57,19 @@ The termination condition for the episode is filling 300 steps or the height of 
 
 ## Demo
 - Random Actions
+
 ![Random](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/Demos/Random_prothetics.gif)
 
 - [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf)
+
 ![TRPO](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/Demos/TRPO_prothetics.gif)
 
 - [PPO](https://arxiv.org/abs/1707.06347)
+
 ![PPO](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/Demos/PPO_prothetics.gif)
 
 - [DDPG](https://arxiv.org/abs/1509.02971) 
+
 ![DDPG](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/Demos/DDPG_prothetics.gif)
 ## Discussion
 
