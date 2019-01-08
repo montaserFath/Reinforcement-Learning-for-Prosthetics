@@ -53,8 +53,9 @@ The termination condition for the episode is filling 300 steps or the height of 
 - [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) is a model free, on-policy optimization method that effective for optimizing large nonlinear policies such as neural networks.
 
 ## Results
-![Results](https://drive.google.com/open?id=1dCPayt3DAMknzX_jeISrdtjYweiGQpQm)
-![Results](https://www.google.rw/search?q=images&tbm=isch&source=iu&ictx=1&fir=A6JJqffgz3xzlM%253A%252CpFs_4Fcq5AgpmM%252C_&usg=AI4_-kSe7kutL7fo50LZBJwVxdtPCks5eQ&sa=X&ved=2ahUKEwiA2pz62t7fAhUH_RQKHf5FDhcQ9QEwAHoECAYQBA#imgrc=A6JJqffgz3xzlM:)
+![Results](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/pro_mean.png)
+
+
 ## Discussion
 
 - OpenSim [ProstheticsEnv](http://osim-rl.stanford.edu) is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
