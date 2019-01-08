@@ -6,11 +6,12 @@ In this repo, we are trying to apply Reinforcement Learning (RL) to enable prost
 [![AI for prosthetics](https://s3-eu-west-1.amazonaws.com/kidzinski/nips-challenge/images/ai-prosthetics.jpg)](https://github.com/stanfordnmbl/osim-rl)
 
 ## Objectives
-1- Benchmarking RL algorithms Deterministic Policy Gradient [DDPG](https://arxiv.org/abs/1509.02971), Trust Region Policy Optimization [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) and Proximal Policy Optimization [PPO](https://arxiv.org/abs/1707.06347) algorithms.
+- Benchmarking RL algorithms Deterministic Policy Gradient [DDPG](https://arxiv.org/abs/1509.02971), Trust Region Policy Optimization [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) and Proximal Policy Optimization [PPO](https://arxiv.org/abs/1707.06347) algorithms.
 
-2- Reduce training time using Imitation Learning algorithm Dataset Aggregation algorithm [DAgger](http://proceedings.mlr.press/v15/ross11a/ross11a.pdf).
+- Reduce training time using Imitation Learning algorithm Dataset Aggregation algorithm [DAgger](http://proceedings.mlr.press/v15/ross11a/ross11a.pdf).
 
-3- Modificat DAgger algorithm to balance between exploration and exploiting.
+- Modificat DAgger algorithm to balance between exploration and exploiting.
+
 ## OpenSim Enviroment
 [OpenSim](https://opensim.stanford.edu/) models one human leg and prosthetic in another leg.
 
@@ -55,28 +56,28 @@ The termination condition for the episode is filling 300 steps or the height of 
 
 ## Discussion
 
-1- OpenSim ProstheticsEnv is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
+- OpenSim ProstheticsEnv is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
 
-2- RL algorithms take a long time to build a complex policy which has the ability to compute all state variables and select action variables which will maximize the reward.
+- RL algorithms take a long time to build a complex policy which has the ability to compute all state variables and select action variables which will maximize the reward.
 
-3-[DDPG](https://arxiv.org/abs/1509.02971) algorithm achieves good reward because it designed for high dimensions continuous space environments and it uses the replay buffer.
+-[DDPG](https://arxiv.org/abs/1509.02971) algorithm achieves good reward because it designed for high dimensions continuous space environments and it uses the replay buffer.
 
-4- [PPO](https://arxiv.org/abs/1707.06347) the least training time comparing to [DDPG](https://arxiv.org/abs/1509.02971) and [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) because [PPO](https://arxiv.org/abs/1707.06347) uses gradient algorithm approximation instance of the conjugate gradient algorithm.
+- [PPO](https://arxiv.org/abs/1707.06347) the least training time comparing to [DDPG](https://arxiv.org/abs/1509.02971) and [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) because [PPO](https://arxiv.org/abs/1707.06347) uses gradient algorithm approximation instance of the conjugate gradient algorithm.
 
-5- [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) algorithm achieved the maximum Reward because it takes time to reach the “trusted” region so it slower than [DDPG](https://arxiv.org/abs/1509.02971) and [PPO](https://arxiv.org/abs/1707.06347) .
+- [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) algorithm achieved the maximum Reward because it takes time to reach the “trusted” region so it slower than [DDPG](https://arxiv.org/abs/1509.02971) and [PPO](https://arxiv.org/abs/1707.06347) .
 
 
 ## Limitations
 
-1- The prosthetic model can not walk for large distances.
+- The prosthetic model can not walk for large distances.
 
-2- Each experiment runs for one time, So we are planing to Repeat each experiment number of times and take the average.
+- Each experiment runs for one time, So we are planing to Repeat each experiment number of times and take the average.
 
-3- We used common hyperparameters for all algorithm to make benchmarking between algorithms, we need to select the best hyperparameters for each algorithm and environment.
+- We used common hyperparameters for all algorithm to make benchmarking between algorithms, we need to select the best hyperparameters for each algorithm and environment.
 
-4- We benchmarcked three RL algorithms only and from one library ([ChainerRL](https://github.com/chainer/chainerrl)).
+- We benchmarcked three RL algorithms only and from one library ([ChainerRL](https://github.com/chainer/chainerrl)).
 
-5- We transfer learning between similar agents.
+- We transfer learning between similar agents.
 
 
 ## Getting Started
