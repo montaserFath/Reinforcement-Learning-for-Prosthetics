@@ -54,6 +54,7 @@ The termination condition for the episode is filling 300 steps or the height of 
 
 ## Results
 ![Results](https://drive.google.com/open?id=1dCPayt3DAMknzX_jeISrdtjYweiGQpQm)
+![Results](https://www.google.rw/search?q=images&tbm=isch&source=iu&ictx=1&fir=A6JJqffgz3xzlM%253A%252CpFs_4Fcq5AgpmM%252C_&usg=AI4_-kSe7kutL7fo50LZBJwVxdtPCks5eQ&sa=X&ved=2ahUKEwiA2pz62t7fAhUH_RQKHf5FDhcQ9QEwAHoECAYQBA#imgrc=A6JJqffgz3xzlM:)
 ## Discussion
 
 - OpenSim [ProstheticsEnv](http://osim-rl.stanford.edu) is a very complex environment, it contains more than 158 continuous state variables and 19 continuous action variables.
