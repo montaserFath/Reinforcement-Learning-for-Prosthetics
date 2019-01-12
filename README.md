@@ -1,6 +1,5 @@
 # NeurIPS2018-Challenge-RL-for-Prosthetics
 
-In this competition, you are tasked with developing a controller to enable a physiologically-based human model with a prosthetic leg to walk and run.
 In this repo, we are trying to apply **Reinforcement Learning (RL)** to enable prosthetics to calibrate with **differences between humans and differences between walking environments**. using [OpenSim](https://opensim.stanford.edu/) to simulate prosthetic.
 
 [![AI for prosthetics](https://s3-eu-west-1.amazonaws.com/kidzinski/nips-challenge/images/ai-prosthetics.jpg)](https://github.com/stanfordnmbl/osim-rl)
