@@ -87,11 +87,11 @@ The termination condition for the episode is filling 300 steps or the height of 
 
 - The prosthetic model **can not walk for large distances**.
 
-- Each experiment **runs for one time**, So we are planing to Repeat each experiment number of times and take the average.
+- Each experiment **runs for one time**, So we are planing to Repeat each experiment number of times with different random seeds and take the average and variance.
 
 - We used **same hyperparameters** for all algorithm to make benchmarking between algorithms, we need to select the best hyperparameters for each algorithm and environment.
 
-- We benchmarcked three RL algorithms only and from **one library** ([ChainerRL](https://github.com/chainer/chainerrl)).
+- We benchmarcked three RL algorithms only and from **one library**([ChainerRL](https://github.com/chainer/chainerrl)). Sowe are planing to use different implementations.
 
 - We transfer learning between **similar agents**.
 
