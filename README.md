@@ -99,7 +99,7 @@ The termination condition for the episode is filling 300 steps or the height of 
 
 - We used **same hyperparameters** for all algorithm to make benchmarking between algorithms, we need to select the best hyperparameters for each algorithm and environment.
 
-- We benchmarcked three RL algorithms only and from **one library**([ChainerRL](https://github.com/chainer/chainerrl)). Sowe are planing to use different implementations.
+- We benchmarcked three RL algorithms only and from **one library**([ChainerRL](https://github.com/chainer/chainerrl)). So we are planing to use different implementations.
 
 - We transfer learning between **similar agents**.
 
@@ -127,3 +127,15 @@ pip install chainerrl
 
 
 ## References
+
+[1] T. Garikayi, D. van den Heever and S. Matope, (2016), Robotic prosthetic challenges for clinical applications, IEEE International Conference on Control and Robotics Engineering (ICCRE), Singapore, 2016, pp. 1-5. doi: 10.1109/ICCRE.2016.7476146
+
+[2] Joshi, Girish \& Chowdhary, Girish. (2018). Cross-Domain Transfer in Reinforcement Learning using Target Apprentice.
+
+[3] Lillicrap, Timothy \& J. Hunt, Jonathan \& Pritzel, Alexander \& Heess, Nicolas \& Erez, Tom \& Tassa, Yuval \& Silver, David \& Wierstra, Daan. (2015). Continuous control with deep reinforcement learning. CoRR.
+
+[4] Attia, Alexandre \& Dayan, Sharone. (2018). Global overview of Imitation Learning.
+
+[5] Cheng, Qiao \& Wang, Xiangke \& Shen, Lincheng. (2017). An Autonomous Inter-task Mapping Learning Method via Artificial Neural Network for Transfer Learning. 10.1109/ROBIO.2017.8324510.
+
+[7] J.J. Zhu, DAgger algorithm implementation, (2017), GitHub repository, https://github.com/jj-zhu/jadagger.
