@@ -2,8 +2,16 @@
 
 In this repo, we are trying to apply **Reinforcement Learning (RL)** to enable prosthetics to calibrate with **differences between humans and differences between walking environments**. using [OpenSim](https://opensim.stanford.edu/) to simulate prosthetic.
 
-[![AI for prosthetics](https://s3-eu-west-1.amazonaws.com/kidzinski/nips-challenge/images/ai-prosthetics.jpg)](https://github.com/stanfordnmbl/osim-rl)
+This project is apart from [NeurIPS 2018: AI for Prosthetics Challenge](https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge)
 
+[![AI for prosthetics](https://s3-eu-west-1.amazonaws.com/kidzinski/nips-challenge/images/ai-prosthetics.jpg)](https://github.com/stanfordnmbl/osim-rl)
+# Publications and Awards
+
+- Best Graduation project at [University of khartoum](uofk.edu). Khartoum, Sudan
+
+- Poster at NeurIPS 2018 [Black in AI workshop](https://blackinai.github.io/workshop/2018/programs/), Montreal, Canada
+
+- Poster at [Deep Learning Indaba](http://www.deeplearningindaba.com) 2018, South Africa
 ## Objectives
 - **Benchmarking RL algorithms:** Deterministic Policy Gradient [DDPG](https://arxiv.org/abs/1509.02971), Trust Region Policy Optimization [TRPO](http://proceedings.mlr.press/v37/schulman15.pdf) and Proximal Policy Optimization [PPO](https://arxiv.org/abs/1707.06347) algorithms.
 
