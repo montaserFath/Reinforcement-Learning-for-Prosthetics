@@ -9,7 +9,7 @@ This project is apart from [NeurIPS 2018: AI for Prosthetics Challenge](https://
 
 - Best Graduation project at [University of khartoum](uofk.edu). Khartoum, Sudan
 
-- Poster at NeurIPS 2018 [Black in AI workshop](https://blackinai.github.io/workshop/2018/programs/), Montreal, Canada
+- Poster [paper](https://arxiv.org/abs/1901.04772v1) at NeurIPS 2018 [Black in AI workshop](https://blackinai.github.io/workshop/2018/programs/), Montreal, Canada
 
 - Poster at [Deep Learning Indaba](http://www.deeplearningindaba.com) 2018, South Africa
 ## Objectives
