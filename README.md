@@ -60,6 +60,14 @@ The termination condition for the episode is filling 300 steps or the height of 
 - **[TRPO](http://proceedings.mlr.press/v37/schulman15.pdf)** is a model free, on-policy optimization method that effective for optimizing large nonlinear policies such as neural networks.
 
 ## Results
+
+|  |  **TRPO** | **PPO** | **DDPG** | 
+| :---:         |     :---:      |   :---: |   :---: | 
+|**Mean Reward** | **43**| -58 | -42 | 
+|**Maximum Reward** | **194**| 70  | 113 |
+
+
+
 ![Results](https://github.com/montaserFath/NeurIPS2018-Challenge-RL-for-Prosthetics/blob/master/pro_mean.png)
 
 ## Demo
