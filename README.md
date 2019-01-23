@@ -5,6 +5,16 @@ In this repo, we are trying to apply **Reinforcement Learning (RL)** to enable p
 This project is apart from [NeurIPS 2018: AI for Prosthetics Challenge](https://www.crowdai.org/challenges/nips-2018-ai-for-prosthetics-challenge)
 
 [![AI for prosthetics](https://s3-eu-west-1.amazonaws.com/kidzinski/nips-challenge/images/ai-prosthetics.jpg)](https://github.com/stanfordnmbl/osim-rl)
+
+# Codes
+
+- [PPO Code](https://github.com/montaserFath/Reinforcement-Learning-for-Prosthetics/blob/master/PPO/PPO_Prosthetic.ipynb)
+
+- [TRPO Code](https://github.com/montaserFath/Reinforcement-Learning-for-Prosthetics/blob/master/TRPO/TRPO_prosthetics.ipynb)
+
+- [DDPG Code](https://github.com/montaserFath/Reinforcement-Learning-for-Prosthetics/blob/master/RL/DDPG/DDPG_Prosthetic.ipynb)
+
+
 # Publications and Awards
 
 - Best Graduation project at [University of khartoum](uofk.edu). Khartoum, Sudan
