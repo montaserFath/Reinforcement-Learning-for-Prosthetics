@@ -14,6 +14,8 @@ This project is apart from [NeurIPS 2018: AI for Prosthetics Challenge](https://
 
 - [DDPG Code](https://github.com/montaserFath/Reinforcement-Learning-for-Prosthetics/blob/master/RL/DDPG/DDPG_Prosthetic.ipynb)
 
+- [Imitation Learning Code](https://github.com/montaserFath/Reinforcement-Learning-for-Prosthetics/tree/master/Imitation%20Learning/DDPG)
+
 
 # Publications and Awards
 
