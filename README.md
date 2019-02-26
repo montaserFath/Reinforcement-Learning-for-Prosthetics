@@ -19,7 +19,7 @@ This project is apart from [NeurIPS 2018: AI for Prosthetics Challenge](https://
 
 # Publications and Awards
 
-- Best Graduation project at [University of khartoum](uofk.edu). Khartoum, Sudan
+- Best Graduation project at [University of khartoum](uofk.edu). 2018. Khartoum, Sudan
 
 - Poster [paper](https://arxiv.org/abs/1901.04772v1) at NeurIPS 2018 [Black in AI workshop](https://blackinai.github.io/workshop/2018/programs/), Montreal, Canada
 
@@ -124,7 +124,7 @@ The termination condition for the episode is filling 300 steps or the height of 
 - We transfer learning between **similar agents**.
 
 
-## Getting Started
+## Installation
 
 ### ChainerRL libary
 - [ChainerRL](https://github.com/chainer/chainerrl) is a deep reinforcement learning library that implements various state-of-the-art deep reinforcement algorithms in Python using Chainer, a flexible deep learning framework.
